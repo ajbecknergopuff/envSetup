@@ -1,8 +1,8 @@
 #TODO: check if xcode is installed and abort if not
-#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/master/install.sh)"
+#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/aj/install.sh)"
 
 #install your package managers
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/aj/install.sh)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install node # also installs npm
 brew install python3 #installs python3 and pip3
 
