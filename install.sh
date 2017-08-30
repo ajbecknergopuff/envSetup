@@ -1,4 +1,5 @@
 #TODO: check if xcode is installed and abort if not
+#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/master/install.sh)"
 
 #install your package managers
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -16,7 +17,7 @@ brew cask install google-chrome
 brew cask install google-drive
 
 #dev tools setup
-brew install zsh
+brew install zsh zsh-completions
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 brew install tree
 brew install vim
