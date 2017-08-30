@@ -2,7 +2,7 @@
 #ruby -e "$(curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/master/install.sh)"
 
 #install your package managers
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/aj/install.sh)"
 brew install node # also installs npm
 brew install python3 #installs python3 and pip3
 
