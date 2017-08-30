@@ -13,8 +13,23 @@ alias git=hub
 
 #casks to install applications
 #brew cask install dropbox
-brew cask install google-chrome
-brew cask install google-drive
+brew cask install \
+    qlcolorcode \
+    qlstephen \
+    qlmarkdown \
+    quicklook-json \
+    qlprettypatch \
+    quicklook-csv \
+    betterzipql \
+    webpquicklook \
+    suspicious-package
+brew cask install \
+	asepsis \
+	google-chrome \
+	inkscape \
+	veracrypt \
+	torbrowser \
+	qbittorrent
 
 #dev tools setup
 brew install zsh zsh-completions
@@ -23,14 +38,23 @@ brew install tree
 brew install vim
 brew cask install docker
 brew cask install postman
-brew cask install visual-studio-code
-brew cask install sublime-text
+#brew cask install visual-studio-code
+#brew cask install sublime-text
+brew cask install webstorm
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 gem install sass
 npm install -g less
 
-#java 
+#java and android
 brew cask install java
+echo "export JAVA_HOME=$(/usr/libexec/java_home)" >> .zshrc
+echo "export PATH=${JAVA_HOME}/bin:$PATH" >> .zshrc
+brew cask install android-studio
+echo "export ANDROID_HOME=~/Library/Android/sdk/" >> .zshrc
+echo "export PATH=$ANDROID_HOME/platform-tools:$PATH" >> .zshrc
+echo "export PATH=$ANDROID_HOME/tools:$PATH" >> .zshrc
+echo "export GRADLE_HOME=/Library/gradle/gradle-3.2" >> .zshrc
+echo "export PATH=$PATH:$GRADLE_HOME/bin" >> .zshrc
 
 #python setup 
 pip3 install --upgrade setuptools
