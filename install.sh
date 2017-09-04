@@ -1,5 +1,7 @@
+# TO RUN THIS SCRIPT COPY AND PASTE: 
+# curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/aj/install.sh | bash
+
 #TODO: check if xcode is installed and abort if not
-#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/aj/install.sh)"
 
 #install your package managers
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -29,6 +31,7 @@ brew cask install \
 	inkscape \
 	veracrypt \
 	torbrowser \
+	1password \
 	qbittorrent
 
 #dev tools setup
