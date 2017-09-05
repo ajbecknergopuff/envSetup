@@ -11,7 +11,6 @@ brew install python3 #installs python3 and pip3
 #git vcs setup
 brew install git
 brew install hub
-alias git=hub
 
 #casks to install applications
 #brew cask install dropbox
@@ -32,6 +31,7 @@ brew cask install \
 	veracrypt \
 	torbrowser \
 	1password \
+	teamviewer \
 	qbittorrent
 
 #dev tools setup
