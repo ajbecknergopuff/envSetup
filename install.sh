@@ -82,6 +82,7 @@ npm install -g yo
 npm install -g bower
 npm install -g cordova
 npm install -g ionic
+npm install -g ios-deploy --unsafe-perm=true
 npm install -g firebase-tools
 npm install -g @angular/cli
 
