@@ -11,6 +11,7 @@ brew install python3 #installs python3 and pip3
 #git vcs setup
 brew install git
 brew install hub
+git config --global hub.protocol https #makes sure auth doesnt fail when using hub
 
 #casks to install applications
 #brew cask install dropbox
