@@ -79,6 +79,8 @@ pip3 install jupyter
 npm install -g express-generator
 npm install -g yo
 npm install -g bower
+npm install -g gulp
+npm install -g grunt
 npm install -g cordova
 npm install -g ionic
 npm install -g firebase-tools
