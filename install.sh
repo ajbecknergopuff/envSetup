@@ -44,6 +44,8 @@ brew cask install postman
 #brew cask install visual-studio-code
 #brew cask install sublime-text
 brew cask install webstorm
+brew cask install xquartz
+brew cask install inkscape
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 gem install sass
 npm install -g less
