@@ -1,11 +1,7 @@
 # TO RUN THIS SCRIPT COPY AND PASTE: 
-# curl -fsSL https://raw.githubusercontent.com/mht32/envSetup/aj/install.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/thisistheaj/envSetup/aj/uninstall.sh | bash
 
 #TODO: check if xcode is installed and abort if not
-
-#git vcs setup
-brew uninstall git
-brew uninstall hub
 
 #casks to install applications
 #brew cask install dropbox
@@ -30,7 +26,7 @@ brew cask uninstall \
 
 #dev tools setup
 brew uninstall zsh zsh-completions
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/uninstall.sh | sh
 brew uninstall tree
 brew uninstall vim
 brew cask uninstall docker
@@ -38,8 +34,8 @@ brew cask uninstall postman
 #brew cask install visual-studio-code
 #brew cask install sublime-text
 brew cask uninstall webstorm
-brew cask uninstall xquartz
 brew cask uninstall inkscape
+brew cask uninstall xquartz
 #ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 gem install sass
 npm uninstall -g less
@@ -56,7 +52,7 @@ brew cask uninstall android-studio
 #echo "export GRADLE_HOME=/Library/gradle/gradle-3.2" >> .zshrc
 #echo "export PATH=$PATH:$GRADLE_HOME/bin" >> .zshrc
 
-#python setup 
+#python teardown
 pip3 uninstall --upgrade setuptools
 pip3 uninstall --upgrade pip
 pip3 uninstall nose
@@ -72,7 +68,7 @@ pip3 uninstall seaborn
 pip3 uninstall ipython
 pip3 uninstall jupyter
 
-#node setup
+#node teardown
 npm uninstall -g express-generator
 npm uninstall -g yo
 npm uninstall -g bower
@@ -82,6 +78,10 @@ npm uninstall -g cordova
 npm uninstall -g ionic
 npm uninstall -g firebase-tools
 npm uninstall -g @angular/cli
+
+#git vcs teardown
+brew uninstall git
+brew uninstall hub
 
 #uninstall your package managers
 brew uninstall node # also installs npm
