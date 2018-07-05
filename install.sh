@@ -22,10 +22,11 @@ brew cask install qlmarkdown
 brew cask install quicklook-json 
 brew cask install qlprettypatch 
 brew cask install quicklook-csv 
-brew cask install betterzipql 
+brew cask install qlimagesize
+brew cask install betterzip
 brew cask install webpquicklook 
+brew cask install qlvideo
 brew cask install suspicious-package
-brew cask install asepsis 
 brew cask install google-chrome
 brew cask install veracrypt
 brew cask install torbrowser
