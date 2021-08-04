@@ -1,5 +1,5 @@
 # TO RUN THIS SCRIPT COPY AND PASTE: 
-# curl -fsSL https://raw.githubusercontent.com/ajbecknergopuff/envSetup/master/install.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/ajbecknergopuff/envSetup/patc-1/install.sh | bash
 
 #TODO: check if xcode is installed and abort if not
 
