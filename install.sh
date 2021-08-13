@@ -2,7 +2,7 @@
 # >to run this script,
 # >copy and paste these two commands:
 # xcode-select --install
-# curl -fsSL https://raw.githubusercontent.com/ajbecknergopuff/envSetup/patc-2/install.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/ajbecknergopuff/envSetup/patch-1/install.sh | bash
 
 ### TODO: check if xcode is installed and abort if not
 #xcode-select --install #executes async; run BEFORE you run this script or everything else will fail
